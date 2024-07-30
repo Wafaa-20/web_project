@@ -41,7 +41,7 @@
 .div1{
 
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-color: rgb(57, 27, 112);
     display: flex;
     justify-content: center;
@@ -88,35 +88,45 @@
     z-index: 1;
     width: 20%;
     height: 40vh;
-    display: flex;
-    justify-content: center;
+    margin-top: 10%;
     align-self: center;
     background-color: cornflowerblue;
     border-radius: 20px;
 }
 .box > p{
     font-size: 6vh;
-    align-self: center;
+    text-align: center;
+    padding: 15%;
 }
 
 
 h1{
     z-index: 1;
     align-self: center;
-    
+    margin: 2%;
     display: flex;
     color: dodgerblue;
 }
 
 button{
     z-index: 1;
+    font-size: 3vh;
     align-self: center;
     width: fit-content;
     height: fit-content;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5%  2%;
 }
 
 
+hr{
+    width: 80%;
+    border: 3px wheat solid;
+    float: left;
+    margin-top: 9%;
 
+}
 
 
 /* On screens that are 992px or less, set the background color to blue */
