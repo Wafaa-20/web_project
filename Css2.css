@@ -84,6 +84,39 @@
 
 
 
+.box{
+    z-index: 1;
+    width: 20%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.box > p{
+    font-size: 6vh;
+    align-self: center;
+}
+
+
+h1{
+    z-index: 1;
+    align-self: center;
+    
+    display: flex;
+    color: dodgerblue;
+}
+
+button{
+    z-index: 1;
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
 
 
 /* On screens that are 992px or less, set the background color to blue */
