@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    font-family: 'Courier New', Courier, monospace;
+    direction: rtl;
+    
+}
+
+.nav1{
+    padding: 10px 0px;
+    position: sticky;
+    background-color: cornflowerblue;
+   
+}
+
+.nav1 > ul > li{
+    display:inline;
+    list-style: none;
+    padding: 10px 0px;
+
+}
+
+.nav1 > ul > li > a{
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 0px;
+    text-decoration: none;
+    animation-duration: 100ms;
+    /* background-color: aliceblue; */
+}
+
+.nav1 > ul > li > a:hover{
+    animation-duration: 100ms;
+    background-color: aliceblue;
+    padding: 10px;
+}
